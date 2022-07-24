@@ -38,16 +38,18 @@ class duck extends animal{
 
 $dog = new dog("dog");
 $dog -> growl();
-$dog->move();
+$dog -> move();
 
 echo "<hr>";
 
 $duck = new duck("duck");
-$duck ->quack();
-$duck->move();
+$duck -> quack();
+$duck -> move();
 
 echo "<hr>";
 
 $anim = new animal(" elephant");
-$anim->move();
+$anim -> move();
+
+
 ?>
